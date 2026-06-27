@@ -20,3 +20,4 @@ class ExcelMethods_class:
         sheet = self.workbook[sheetName]
         sheet.cell(row=rownum, column=columnno).value = data
         self.workbook.save(self.file)
+        

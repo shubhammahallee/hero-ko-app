@@ -1,6 +1,5 @@
 import openpyxl
 
-
 class ExcelMethods_class:
 
     def __init__(self, file):
